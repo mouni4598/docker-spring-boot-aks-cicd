@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: mkuseacr.azurecr.io/app1
+  repository: mkuseacr.azurecr.io
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
